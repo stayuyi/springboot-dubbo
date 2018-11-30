@@ -2,14 +2,8 @@ package com.yy.provider1;
 
 import com.alibaba.fastjson.JSON;
 import com.alibaba.fastjson.JSONObject;
-import net.sf.json.JSONArray;
-import org.assertj.core.util.Maps;
 import org.junit.Test;
 
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
 
 public class JsonArray2JsonObjectTest {
     String json="[\n" +
@@ -183,7 +177,5 @@ public class JsonArray2JsonObjectTest {
 
         System.out.println(jsonObject.get("d"));
 
-
     }
-
 }

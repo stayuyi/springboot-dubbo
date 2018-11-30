@@ -32,7 +32,6 @@
         <curator-framework.version>4.0.1</curator-framework.version>
         <zookeeper.version>3.4.13</zookeeper.version>
         <dubbo.starter.version>0.2.0</dubbo.starter.version>
-        <thymeleaf.version>2.0.3.RELEASE</thymeleaf.version>
         <fastjson_version>1.2.6</fastjson_version>
         <common-lang.version>2.6</common-lang.version>
     </properties>
@@ -88,7 +87,6 @@
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-thymeleaf</artifactId>
-            <version>${thymeleaf.version}</version>
         </dependency>
         <dependency>
             <groupId>com.alibaba</groupId>
