@@ -16,7 +16,7 @@ import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
 @Slf4j
-public class TestStream {
+public class streamTest1 {
 
     @Test
     public void test5() {
