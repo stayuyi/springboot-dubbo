@@ -10,7 +10,7 @@ public class TestJaxb {
     @Test
     public void test1(){
         User user = new User("陈本布衣", 2018, "超级管理员","瞎哔哔");
-        File file = new File("E://user.xml");
+        File file = new File("D://user.xml");
 
         try {
             JAXBContext jaxbContext = JAXBContext.newInstance(User.class);
@@ -34,7 +34,7 @@ public class TestJaxb {
     //读取xml文件
     @Test
     public void test2(){
-        File file=new File("E://user.xml");
+        File file=new File("D://user.xml");
         try {
             JAXBContext jaxbContext = JAXBContext.newInstance(User.class);
             Unmarshaller unmarshaller = jaxbContext.createUnmarshaller();
