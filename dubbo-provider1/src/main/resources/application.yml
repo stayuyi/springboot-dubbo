@@ -14,22 +14,22 @@ provider123:
     service:
       version : 1.0.0
 
-spring:
-  application:
-    name: dubbo-provider
-  datasource:
-    url: jdbc:mysql://127.0.0.1:3306/pandora?useUnicode=true&amp;characterEncoding=utf-8
-
-    username: root
-    password: root
-    driver-class-name: com.mysql.jdbc.Driver
-  jpa:
-    database: mysql
-    show-sql: true
-    hibernate:
-      ddl-auto: update
-      jdbc:
-      batch_size: 0
-    properties:
-      dialect: org.hibernate.dialect.MySQL5Dialect
+#spring:
+#  application:
+#    name: dubbo-provider
+#  datasource:
+#    url: jdbc:mysql://127.0.0.1:3306/pandora?useUnicode=true&amp;characterEncoding=utf-8
+#
+#    username: root
+#    password: root
+#    driver-class-name: com.mysql.jdbc.Driver
+#  jpa:
+#    database: mysql
+#    show-sql: true
+#    hibernate:
+#      ddl-auto: update
+#      jdbc:
+#      batch_size: 0
+#    properties:
+#      dialect: org.hibernate.dialect.MySQL5Dialect
 
