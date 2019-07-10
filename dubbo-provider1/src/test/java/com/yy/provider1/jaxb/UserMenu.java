@@ -10,7 +10,9 @@ import java.io.Serializable;
 
 @XmlType//@XmlType，将Java类或枚举类型映射到XML模式类型，常与@XmlRootElement、@XmlAccessorType共用，propOrder属性定义字段生成的XML节点顺序；
 @XmlRootElement(name = "userMenu") //@XmlRootElement，将Java类或枚举映射成XML元素根节点，是唯一一个必须注解，name属性指定根节点名称，不指定默认为类名的小写；
-@XmlAccessorOrder(XmlAccessOrder.ALPHABETICAL)  //@XmlAccessorOrder，控制JAXB 绑定类中属性和字段的排序，有两个属性，AccessorOrder.ALPHABETICAL——对生成的XML元素按字母书序排序，XmlAccessOrder.UNDEFINED——不排序，默认为该值；
+@XmlAccessorOrder(XmlAccessOrder.ALPHABETICAL)  //@XmlAccessorOrder，控制JAXB 绑定类中属性和字段的排序，
+                             // 有两个属性，AccessorOrder.ALPHABETICAL——对生成的XML元素按字母书序排序，
+                             // XmlAccessOrder.UNDEFINED——不排序，默认为该值；
 //@Data    注意这个注解会产生  类的两个属性具有相同名称
 @NoArgsConstructor
 @AllArgsConstructor
